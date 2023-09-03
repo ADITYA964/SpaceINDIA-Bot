@@ -119,10 +119,10 @@ class SpaceINDIA_bot(object):
 #################################### Create Setup ####################################
 
 index_name = "langchainpinecone"
-os.environ["OPENAI_API_KEY"]="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"
+os.environ["OPENAI_API_KEY"]="YOUR OPENAI API KEY"
 
 chatbot = SpaceINDIA_bot(openai_key=os.environ["OPENAI_API_KEY"],
-               pinecone_key=os.environ.get('PINECONE_API_KEY', 'b9e4dcda-4cb4-4589-b91b-eeaad51fd689'),
+               pinecone_key=os.environ.get('PINECONE_API_KEY', 'YOUR PINECONE API KEY'),
                pinecone_env=os.environ.get('PINECONE_API_ENV', 'gcp-starter'),
                pinecone_indexname=index_name)
 
