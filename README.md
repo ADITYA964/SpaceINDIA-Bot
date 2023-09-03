@@ -55,3 +55,7 @@ cd .\SpaceINDIA-Bot\
 ```shell
 poetry run python textbase/textbase_cli.py test
 ``` 
+6. Click server URL
+```shell
+Server URL: http://localhost:4000/
+``` 
