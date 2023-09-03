@@ -3,7 +3,7 @@ A chatbot that answers queries of user based on space missions happened in 2023
 
 ## Features
 1. Langchain integration: This chatbot chains various vectorstores that contain embeddings of text generated in 2023
-2. Pinecone vectorstore: All data collected in 2023 is store in pinecone vectorstore to generate latest contexts for GPT-3.5
+2. Pinecone vectorstore: All data collected in 2023 is stored in pinecone vectorstore to generate latest contexts for GPT-3.5
 3. General knowledge about space missions held in 2023 covering Aditya L1, Chandrayaan-3 , James Webb telescope and more.
 
 # Demo video
