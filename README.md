@@ -22,3 +22,26 @@ https://github.com/ADITYA964/SpaceINDIA-Bot/assets/61913852/c70e6b0b-7995-4310-9
    |-- requirements.txt
 ```   
 
+## Steps for bot inference
+
+1. Clone this repository.
+```shell
+git clone https://github.com/ADITYA964/SpaceINDIA-Bot.git
+```
+2. Setup virtual python environment
+```shell
+pip install virtualenv
+
+# Create environment
+python -m venv test
+
+.\test\Scripts\Activate.ps1
+```
+3. Setup poetry and install packages
+```shell
+pip install poetry
+poetry shell
+poetry install
+
+pip install -r requirements.txt
+```
