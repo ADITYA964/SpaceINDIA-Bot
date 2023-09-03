@@ -1,4 +1,4 @@
-# SpaceINDIA-Bot
+# SpaceINDIA-Bot for TextBase Titans Hackathon
 A chatbot that answers queries of user based on space missions happened in 2023
 
 ## Features
