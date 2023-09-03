@@ -40,8 +40,18 @@ python -m venv test
 3. Setup poetry and install packages
 ```shell
 pip install poetry
+
 poetry shell
+
 poetry install
 
 pip install -r requirements.txt
 ```
+4. Switch to working directory
+```shell
+cd .\SpaceINDIA-Bot\
+```
+5. Run SpaceINDIA bot on flask app
+```shell
+poetry run python textbase/textbase_cli.py test
+``` 
