@@ -7,3 +7,4 @@ uvicorn==0.22.0
 pypdf
 sentence_transformers
 pinecone-client
+textbase-client
